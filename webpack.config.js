@@ -7,8 +7,8 @@ module.exports = {
     filename: './public/bundle.js'
   },
   resolve: {
-  	root: __dirname,
-  	alias: {
+    root: __dirname,
+    alias: {
       Main: 'app/components/Main.jsx',
       Nav: 'app/components/Nav.jsx',
       Weather: 'app/components/Weather.jsx',
@@ -21,16 +21,16 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   module: {
-  	loaders: [
-	  	{
-	  		loader: 'babel-loader',
-	  		query: {
-	  			presets: ['react', 'es2015', 'stage-0']
-	  		},
-	  		test: /\.jsx?$/,
-	  		exclude: /(node_modules|bower_components)/
-	  	}
-  	]
+    loaders: [
+	    {
+	      loader: 'babel-loader',
+	      query: {
+	        presets: ['react', 'es2015', 'stage-0']
+	      },
+	      test: /\.jsx?$/,
+	      exclude: /(node_modules|bower_components)/
+      }
+    ]
   },
   node: {
     fs: 'empty'
