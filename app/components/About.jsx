@@ -17,6 +17,9 @@ var About = (props) => {
 				<li>
 					<a href="http://openweathermap.org" target="_blank">Open Weather Map</a> - I used Open Weather Map to search for weather data by city name.
 				</li>
+				<li>
+					<a href="http://foundation.zurb.com" target="_blank">Foundation</a> - I used Foundation for CSS styling to make this app look nice.
+				</li>
 			</ul>
 		</div>
 	)
