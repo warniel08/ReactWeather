@@ -40,5 +40,6 @@ module.exports = {
       path: './.env',
       safe: false
     })
-  ]
+  ],
+  devtool: 'cheap-module-eval-source-map'
 };
